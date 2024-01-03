@@ -2,7 +2,7 @@
   color: #e68f50;
   text-align: center;
   font-family: Outfit;
-  font-size: 1.125rem;
+  font-size: 2.125rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -12,7 +12,7 @@
   color: #36454f;
   text-align: center;
   font-family: Outfit;
-  font-size: 0.8125rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -21,17 +21,22 @@
 
 .placement_services_data_div {
   display: inline-flex;
+  flex-wrap: wrap;
+  position: relative;
+  left: 7rem;
   gap: 10px;
 }
 
 .placement_services_cards {
+  width: 25rem;
+  height: 20.625rem;
+  flex-shrink: 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
+
   align-items: center;
-  width: 18.75rem;
   padding: 10px;
-  height: 14rem;
   border-radius: 1.5625rem;
   border: 1px solid rgba(101, 101, 101, 0.25);
   background: #fff;
@@ -42,7 +47,7 @@
   color: #0a56f1;
   text-align: center;
   font-family: Outfit;
-  font-size: 1rem;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -53,7 +58,7 @@
   color: #36454f;
   text-align: center;
   font-family: Outfit;
-  font-size: 0.8125rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -90,6 +95,8 @@
 
   .placement_services_data_div {
     display: inline-flex;
+    flex-wrap: nowrap;
+    position: inherit;
     gap: 10px;
   }
 

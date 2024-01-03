@@ -38,8 +38,9 @@
   display: flex;
   width: 75px;
   height: 75px;
-  top: 40px;
-  left: 80px;
+  top: 0.8rem;
+  left: -12rem;
+
   background-color: #121212;
 }
 

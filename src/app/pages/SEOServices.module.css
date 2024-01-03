@@ -6,18 +6,22 @@
   color: #36454f;
   text-align: center;
   font-family: Outfit;
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.01313rem;
 }
 
+.seoServices_div div {
+  width: 40rem;
+}
+
 .seoServices_div h2 {
   color: #e68f50;
   text-align: center;
   font-family: Outfit;
-  font-size: 1.125rem;
+  font-size: 2.125rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -27,7 +31,7 @@
   color: #0a56f1;
   text-align: center;
   font-family: Outfit;
-  font-size: 1rem;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;

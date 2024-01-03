@@ -2,7 +2,7 @@
   color: #e68f50;
   text-align: center;
   font-family: Outfit;
-  font-size: 1.125rem;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -12,7 +12,7 @@
   color: #36454f;
   text-align: center;
   font-family: Outfit;
-  font-size: 0.8125rem;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -21,12 +21,16 @@
 
 .data_div {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
 .digital_service_data {
-  max-width: 25rem;
-  /* flex-shrink: 0; */
+  width: 25rem;
+  height: 25rem;
+  flex-shrink: 0;
+  position: relative;
+  left: 7rem;
   border-radius: 1.5625rem;
   border: 1px solid #0a56f1;
   background: linear-gradient(135deg, #fff 0%, rgba(255, 255, 255, 0) 50%);
@@ -43,7 +47,7 @@
   color: #36454f;
   text-align: center;
   font-family: Outfit;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -67,7 +71,7 @@
 .digital_service_titleLogo h3 {
   color: #0a56f1;
   font-family: Outfit;
-  font-size: 1rem;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -98,12 +102,14 @@
 
   .data_div {
     display: inline-flex;
+    flex-wrap: nowrap;
     gap: 10px;
   }
 
   .digital_service_data {
     width: 18.75rem;
     height: 14.1875rem;
+    position: inherit;
     /* flex-shrink: 0; */
     border-radius: 1.5625rem;
     border: 1px solid #0a56f1;
