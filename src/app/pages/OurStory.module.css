@@ -1,0 +1,241 @@
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  max-width: 80rem;
+  align-content: center;
+  position: relative;
+  border-radius: 2rem;
+  padding: 2rem;
+  left: 10rem;
+  border-radius: 1.5625rem 0rem 0rem 1.5625rem;
+  background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.story_text {
+  color: #36454f;
+  font-family: Outfit;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.875rem;
+  letter-spacing: 0.04125rem;
+}
+
+.story_text h1 {
+  color: #0a56f1;
+  font-family: Outfit;
+  font-size: 2.1875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.06563rem;
+}
+
+.story_text button {
+  width: 25.25rem;
+  height: 3.75rem;
+  flex-shrink: 0;
+  border-radius: 3.125rem;
+  background: #e68f50;
+  color: #fff;
+  font-family: Outfit;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.04688rem;
+}
+
+.styleCards {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.qualities h2 {
+  color: #e68f50;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.qualities p {
+  color: #36454f;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.875rem;
+  letter-spacing: 0.04125rem;
+}
+
+.qualityCards {
+  display: flex;
+  width: 19.75rem;
+  height: 7.5rem;
+  flex-shrink: 0;
+  border-radius: 1.5625rem;
+  border: 2px solid #fff;
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 0.08) 0%,
+    rgba(10, 86, 241, 0.08) 100%
+  );
+  box-shadow: 0px 4px 10px 0px rgba(10, 86, 241, 0.25);
+}
+
+.qualityCards p {
+  color: #0a56f1;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.04688rem;
+}
+
+.logo {
+  width: 3.75rem;
+  height: 3.75rem;
+  flex-shrink: 0;
+}
+
+.qualityLogo {
+  width: 5rem;
+  height: 5rem;
+  flex-shrink: 0;
+  border-radius: 0.9375rem;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: column-reverse;
+    position: inherit;
+  }
+
+  .story_text {
+    color: #36454f;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.02438rem;
+  }
+
+  .story_text button {
+    width: 14.375rem;
+    height: 2.1875rem;
+    border-radius: 3.125rem;
+    background: #0a56f1;
+    color: #fff;
+    font-family: Outfit;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.02625rem;
+  }
+
+  .qualities {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .story_text h1 {
+    color: #e68f50;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .qualities h2 {
+    color: #e68f50;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .qualities p {
+    color: #36454f;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.02438rem;
+  }
+
+  .qualityCards {
+    width: 21.4375rem;
+    height: 3.125rem;
+    gap: 8px;
+    display: flex;
+    border-radius: 4rem;
+    border: 2px solid #fff;
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0.08) 0%,
+      rgba(10, 86, 241, 0.08) 100%
+    );
+    box-shadow: 0px 4px 10px 0px rgba(10, 86, 241, 0.25);
+  }
+
+  .qualityCards p {
+    color: #0a56f1;
+    font-family: Outfit;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.02625rem;
+  }
+
+  .logo {
+    width: 1.875rem;
+    height: 1.875rem;
+  }
+
+  .qualityLogo {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #fff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+  }
+
+  .styleCards {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,137 @@
+.placement_services_div h1 {
+  color: #e68f50;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.placement_services_div p {
+  color: #36454f;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.02438rem;
+}
+
+.placement_services_data_div {
+  display: inline-flex;
+  gap: 10px;
+}
+
+.placement_services_cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 18.75rem;
+  padding: 10px;
+  height: 14rem;
+  border-radius: 1.5625rem;
+  border: 1px solid rgba(101, 101, 101, 0.25);
+  background: #fff;
+  box-shadow: 0px 8px 10px 0px rgba(101, 101, 101, 0.25);
+}
+
+.placement_services_cards h3 {
+  color: #0a56f1;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.03rem;
+}
+
+.placement_services_cards p {
+  color: #36454f;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.02438rem;
+}
+
+.placement_services_cards img {
+  width: 3.125rem;
+  height: 3.125rem;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .placement_services_div h1 {
+    color: #e68f50;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .placement_services_div p {
+    color: #36454f;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.02438rem;
+  }
+
+  .placement_services_data_div {
+    display: inline-flex;
+    gap: 10px;
+  }
+
+  .placement_services_cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 18.75rem;
+    padding: 10px;
+    height: 14rem;
+    border-radius: 1.5625rem;
+    border: 1px solid rgba(101, 101, 101, 0.25);
+    background: #fff;
+    box-shadow: 0px 8px 10px 0px rgba(101, 101, 101, 0.25);
+  }
+
+  .placement_services_cards h3 {
+    color: #0a56f1;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.03rem;
+  }
+
+  .placement_services_cards p {
+    color: #36454f;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.02438rem;
+  }
+
+  .placement_services_cards img {
+    width: 3.125rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+  }
+}

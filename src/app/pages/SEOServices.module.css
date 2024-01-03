@@ -1,0 +1,71 @@
+.seoServices_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #36454f;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.01313rem;
+}
+
+.seoServices_div h2 {
+  color: #e68f50;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.seoServices_div h3 {
+  color: #0a56f1;
+  text-align: center;
+  font-family: Outfit;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media (max-width: 768px) {
+  .seoServices_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #36454f;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.01313rem;
+  }
+
+  .seoServices_div h2 {
+    color: #e68f50;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .seoServices_div h3 {
+    color: #0a56f1;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}

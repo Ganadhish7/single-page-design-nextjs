@@ -1,0 +1,23 @@
+.mobileMenu {
+  display: none;
+}
+
+.hamburger {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+@media (max-width: 768px) {
+  .mobileMenu {
+    display: flex;
+    align-items: center;
+  }
+}
